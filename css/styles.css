@@ -1,1 +1,66 @@
-
+.top {
+  background-image: url("../img/milkbg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 500px;
+  overflow: auto;
+}
+.topbox {
+  background: rgba(0, 0, 0, 0.4);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 200%;
+  padding: 50px;
+  margin: 50px auto auto auto;
+  display: inline-block;
+}
+.topbox h1 {
+  font-weight: bold;
+  font-size: 400%;
+}
+img.rounded-corners {
+  border-radius: 50%;
+}
+.main {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+h3 {
+  display: inline-block;
+}
+.newbadge {
+  background-color: #d95a56;
+  border-radius: 3px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2px;
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+}
+.about {
+  background-color: #d3d3d3;
+  text-align: center;
+  padding: 15px;
+  height: 300px;
+  display: block;
+}
+.aboutimg {
+  float: left;
+  padding-right: 20px;
+}
+.abouttext {
+  text-align: justify;
+  margin-left: 200px;
+}
+.contact {
+  background-color: #19a0d0;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 15px;
+}
