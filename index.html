@@ -6,12 +6,13 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Poppins font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body>
 <div class="top">
   <div class="topbox">
     <h1>Cookie Store</h1>
@@ -19,33 +20,52 @@
   </div>
 </div>
 <div class="main">
+  <div class="container">
   <h2>The Cookies</h2>
-  <div class="row">
-    <div class="col-lg-3 col-sm-12">
-      <h3>Thin Mint Cookies</h3>
-      <div class="newbadge">NEW</div>
-      <p>Tasty mint chocolate cookies</p>
-      <img src="img/mint.png" class="rounded-corners">
-    </div>
+  <div class="row justify-content-end mx-auto my-5">
+      <div class="col-lg-5 p-5">
+        <h3>Thin Mint Cookies</h3>
+        <div class="newbadge">NEW</div>
+        <p>Tasty mint chocolate cookies</p>
+      </div>
 
-    <div class="col-lg-3 col-sm-12">
+      <div class="col-lg-0 order-last">
+        <img src="img/mint.png" class="rounded-corners">
+      </div>
+  </div>
+
+  <div class="row justify-content-start mx-auto my-5">
+    <div class="col-lg-0 order-last p-5">
       <h3>Peanut Butter Cookies</h3>
       <p>Yummy peanut buttery goodness!</p>
+    </div>
+
+    <div class="col-lg-5">
       <img src="img/peanut.png" class="rounded-corners">
     </div>
+  </div>
 
-    <div class="col-lg-3 col-sm-12">
+  <div class="row justify-content-end mx-auto my-5">
+    <div class="col-lg-5 p-5">
       <h3>Short Bread Cookies</h3>
       <p>Santa's favorite classic.</p>
-      <img src="img/shortbread.png" class="rounded-corners">
     </div>
 
-    <div class="col-lg-3">
+    <div class="col-lg-0">
+      <img src="img/shortbread.png" class="rounded-corners">
+    </div>
+  </div>
+
+  <div class="row justify-content-start mx-auto my-5">
+    <div class="col-lg-0 p-5">
       <h3>Smore's Cookies</h3>
       <p>Camp fire favorite!</p>
+    </div>
+    <div class="col-lg-5 order-first">
       <img src="img/smores.png" class="rounded-corners">
     </div>
   </div>
+</div>
 </div>
 <div class="about">
     <h2>About us</h2>
